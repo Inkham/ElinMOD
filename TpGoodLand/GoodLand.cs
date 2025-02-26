@@ -32,24 +32,24 @@ namespace TpGoodLand
 				return;
 			}
 			if (listBase[0] == "bfForest") {
-				__instance.landFeats.Add(EClass.sources.elements.rows.Find(e => e.alias == "bfFreshAir").id);
 				__instance.landFeats.Add(EClass.sources.elements.rows.Find(e => e.alias == "bfFertile").id);
+				__instance.landFeats.Add(EClass.sources.elements.rows.Find(e => e.alias == "bfFreshAir").id);
 			}
 			if (listBase[0] == "bfPlain" || listBase[0] == "bfCave") {
-				__instance.landFeats.Add(EClass.sources.elements.rows.Find(e => e.alias == "bfFreshAir").id);
 				__instance.landFeats.Add(EClass.sources.elements.rows.Find(e => e.alias == "bfStart").id);
+				__instance.landFeats.Add(EClass.sources.elements.rows.Find(e => e.alias == "bfFreshAir").id);
 			}
 			if (listBase[0] == "bfBeach" || listBase[0] == "bfSea") {
-				__instance.landFeats.Add(EClass.sources.elements.rows.Find(e => e.alias == "bfFreshAir").id);
 				__instance.landFeats.Add(EClass.sources.elements.rows.Find(e => e.alias == "bfFish").id);
+				__instance.landFeats.Add(EClass.sources.elements.rows.Find(e => e.alias == "bfFreshAir").id);
 			}
 			if (listBase[0] == "bfHill") {
-				__instance.landFeats.Add(EClass.sources.elements.rows.Find(e => e.alias == "bfFreshAir").id);
 				__instance.landFeats.Add(EClass.sources.elements.rows.Find(e => e.alias == (EClass.rnd(2) == 0 ? "bfVolcano" : "bfRuin")).id);
+				__instance.landFeats.Add(EClass.sources.elements.rows.Find(e => e.alias == "bfFreshAir").id);
 			}
 			if (listBase[0] == "bfSnow") {
-				__instance.landFeats.Add(EClass.sources.elements.rows.Find(e => e.alias == "bfFreshAir").id);
 				__instance.landFeats.Add(EClass.sources.elements.rows.Find(e => e.alias == (EClass.rnd(2) == 0 ? "bfGeyser" : "bfRuin")).id);
+				__instance.landFeats.Add(EClass.sources.elements.rows.Find(e => e.alias == "bfFreshAir").id);
 			}
 		}
 
